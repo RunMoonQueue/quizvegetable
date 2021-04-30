@@ -1,7 +1,5 @@
 package com.moon.quizvegetable
 
-import android.content.Intent
-import android.graphics.Color.green
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
@@ -11,7 +9,6 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import androidx.annotation.NonNull
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
@@ -195,8 +192,10 @@ class WordActivity : AppCompatActivity() {
                     binding.board.visibility = View.INVISIBLE
                     binding.wordResult.visibility = View.VISIBLE
                     binding.result.text = "결과: $stage\n최고: $lastStage"
-//                    binding.continueGame.text = "순위 올리기"
-//                    binding.continueGame.setOnClickListener {
+                    binding.continueGame.text = "홈으로 돌아가기"
+                    binding.continueGame.setOnClickListener {
+                        finish()
+                    }
 //                        MaterialAlertDialogBuilder(this).apply {
 //                            val view = LayoutInflater.from(this@WordActivity)
 //                                .inflate(R.layout.dialog_rank, null, false)

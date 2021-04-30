@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "492136706788",
+    "project_id": "quizvegetable",
+    "storage_bucket": "quizvegetable.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492136706788:android:14a01cf4138122776172f1",
+        "android_client_info": {
+          "package_name": "com.moon.quizvegetable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492136706788-o8ajqdl8fdggtqle6i20f7lhuq78b5ik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moon.quizvegetable",
+            "certificate_hash": "ab2e547f57cbb4215b27ee18d118f08d3779f506"
+          }
+        },
+        {
+          "client_id": "492136706788-km542o2k2doq7s1g0fbiultcjtl021ql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDryhxib02UkygGC5eT1jdil_yxZDJub3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492136706788-km542o2k2doq7s1g0fbiultcjtl021ql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
